@@ -1,0 +1,18 @@
+.pageHeader {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+/* Flexbox of coffee shops */
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shop {
+    flex-basis: 33%;
+    display: flex;
+}
